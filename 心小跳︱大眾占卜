@@ -484,7 +484,7 @@
         // -----------------------
         // 1. 動態 AI 塔羅占卜引擎 (Gemini API 整合)
         // -----------------------
-        const apiKey = ""; // 上傳到 GitHub Pages 後，您需要在此填入您申請的 Google Gemini API Key 才能啟動 AI 功能喔！
+        const apiKey = "AIzaSyD0ZpZAmh2_N0kD0NFjj6VsamEE3xDuQB8"; // 上傳到 GitHub Pages 後，您需要在此填入您申請的 Google Gemini API Key 才能啟動 AI 功能喔！
 
         async function fetchWithRetry(url, payload, retries = 5) {
             const delays = [1000, 2000, 4000, 8000, 16000];
